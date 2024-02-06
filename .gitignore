@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# checkpoints and others
+**/*checkpoint*
+**/.DS_Store
+**/*__pycache__*
+
+
 # User-specific files
 *.rsuser
 *.suo
