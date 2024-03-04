@@ -1,4 +1,4 @@
-<img src="static/EXTS_Logo.png" width="125px" align="right">
+<img src="static/timeseries_regression_case_study/logo_red.png" width="125px" align="right">
 
 # Application in Machine Learning: Time Series Forecasting
 
@@ -12,6 +12,4 @@ We use the data from the [Global Energy Forecasting Competition](https://en.wiki
 
 In general, we can define a forecasting problem as a supervised regression or classification task. In this repository we define this problem as a regression task and solve it using two simple and popular models: Linear Regression and Random Forest. There are a few parameters that the user can vary during the data exploration and modeling. After training the model, the user can evaluate the performance on a separate test set and compare it with a simple baseline.
 
-**Getting started:** 
 
-Start with loading settings and functions. If you want to execute a cell, make sure it is selected and then press `SHIFT`+`ENTER` or the `'Play'` button.

@@ -1,5 +1,5 @@
 
-<img src="static/logo_red.png" width="125px" align="right">
+<img src="static/logo_red.png" width="150px" align="right">
 
 # Applications of Machine Learning workshop
 
@@ -22,3 +22,41 @@ The workshop is divided into four parts:
 
 
 
+## Getting started
+
+To get started there are two options:
+
+1. **Run Hands-On in the Cloud** (recommended):
+
+The most straightforward way to run hands-on exercises is to execute them in the cloud. For each of the three parts, open the jupyter notebook in Google Colab to run the code interactively:
+
+[![Text Classification](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/timeseries_regression_case_study/timeseries_prediction_workbook.ipynb)
+
+[![Timeseries Regression](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/timeseries_regression_case_study/timeseries_prediction_workbook.ipynb)
+
+[![Anomaly Detection](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/timeseries_regression_case_study/timeseries_prediction_workbook.ipynb)
+
+2. **Run Hands-On locally on your machine**:
+
+Should you prefer to run the hands-on locally on your machine, there are three steps to follow:
+
+**(I) Clone the content**: Clone this repository from Github to your local machine using the following command in your terminal:
+
+```
+git clone https://github.com/epfl-exts/amld24-applications-ML-workshop.git
+```
+
+Or if you prefer to download the content manually, you can use the the green `Code` button on the top right of this page.
+
+**(II) Install Miniconda**: Once the content of the repository is on your machine, you can install the relevant Python dependencies with `conda`. But before that you need to install `Miniconda` on your system, if you don't have `conda` installed already. Install Miniconda on your system using this [link](https://docs.conda.io/en/latest/miniconda.html)
+
+
+and use the provided [environment.yml](https://github.com/epfl-exts/amld24-applications-ML-workshop/blob/main/environment.yml) file.
+
+**(III) Installation with conda**: To install the relevant Python dependencies with conda, use the following code in your terminal:
+
+```
+conda env create -f ~/amld24-applications-ML-workshop/environment.yml
+```
+
+***Note***: This assumes that the downloaded github repository was stored in your home folder.
