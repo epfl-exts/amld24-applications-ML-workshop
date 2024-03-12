@@ -38,7 +38,7 @@ The most straightforward way to run hands-on exercises is to execute them in the
 
 Should you prefer to run the hands-on locally on your machine, there are three steps to follow:
 
-1. **Clone or download the content**: Clone this repository from Github to your local machine using the following `git` command in your terminal. Or if you prefer to download the content manually, you can use the ![](https://placehold.co/60x25/green/white?text=<>+Code) button on the top right of this page and then click on the Download ZIP.
+1. **Clone or download the content**: Clone this repository from Github to your local machine using the following `git` command in your terminal. Or if you prefer to download the content manually, you can click on the ![](https://placehold.co/60x25/green/white?text=<>+Code) button on the top right of this page and then click on the Download ZIP.
 ```
 git clone https://github.com/epfl-exts/amld24-applications-ML-workshop.git
 ```
@@ -47,7 +47,7 @@ git clone https://github.com/epfl-exts/amld24-applications-ML-workshop.git
 3. **Installation with conda**: To install the relevant Python dependencies with conda, use the following code in your terminal:
 
 ```
-conda env create -f ~/amld24-applications-ML-workshop/environment.yml
+conda env create -f ~/amld24-applications-ML-workshop/amld24.yml
 ```
 
 ***Note***: This assumes that the downloaded github repository was stored in your home folder.
