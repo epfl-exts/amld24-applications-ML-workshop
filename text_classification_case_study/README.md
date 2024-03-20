@@ -18,9 +18,9 @@ We want to build a spam detector which, given examples of spam emails and exampl
 To get started with the hands-on session you have the following options. You can choose the first three by clicking on the badges below:
 
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmirKhalilzadeh/tmp/blob/main/text_classification_case_study/Text_classification_interactive.ipynb) 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AmirKhalilzadeh/tmp/5f07b71e2dd2b5ad3055a5d8187f291878adfe5c?urlpath=lab%2Ftree%2Ftext_classification_case_study%2FText_classification_interactive.ipynb)
-[![Offline](https://img.shields.io/badge/Offline_View-Open-Blue.svg)](https://github.com/AmirKhalilzadeh/tmp/blob/main/static/Text_classification_completed.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/text_classification_case_study/Text_classification_interactive.ipynb) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-exts/amld24-applications-ML-workshop/5f07b71e2dd2b5ad3055a5d8187f291878adfe5c?urlpath=lab%2Ftree%2Ftext_classification_case_study%2FText_classification_interactive.ipynb)
+[![Offline](https://img.shields.io/badge/Offline_View-Open-Blue.svg)](https://github.com/epfl-exts/amld24-applications-ML-workshop/blob/main/static/Text_classification_completed.ipynb)
 
 
 - Open the jupyter notebook in **Google Colab** to run the codes interactively on the cloud (recommended for this workshop). Note that you need to have a Google account to run the code in Google Colab.
