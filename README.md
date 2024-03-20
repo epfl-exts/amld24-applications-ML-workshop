@@ -4,7 +4,7 @@
 # Applications of Machine Learning workshop
 
 
-Welcome to the [Applications of Machine Learning workshop]()! This repository contains all resources for the workshop presented at the [Applied Machine Learning Days 2024](https://2024.appliedmldays.org/). Whether you're a student, professional, or simply curious about the field, this workshop will provide you with a solid foundation in key machine learning concepts and practical applications.
+Welcome to the Applications of Machine Learning workshop! This repository contains all resources for the workshop presented at the [Applied Machine Learning Days 2024](https://2024.appliedmldays.org/). Whether you're a student, professional, or simply curious about the field, this workshop will provide you with a solid foundation in key machine learning concepts and practical applications.
 
 
 ## Overview
@@ -12,7 +12,7 @@ Welcome to the [Applications of Machine Learning workshop]()! This repository co
 
 The workshop is divided into four parts. An introduction followed by three hands-on sessions:
 
-1. **Introduction**: This section provides a comprehensive introduction to machine learning, explaining fundamental concepts and laying the groundwork for the hands-on sessions. You can find presentation slides [here](https://github.com/AmirKhalilzadeh/tmp/tree/main/static/slides.pdf).
+1. **Introduction**: This section provides a comprehensive introduction to machine learning, explaining fundamental concepts and laying the groundwork for the hands-on sessions. You can find presentation slides [here](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/static/AMLD2024.pdf).
 
 2. **Text Classification**: In this part you will learn about text classification as a supervised learning problem. You will dive into the realm of natural language processing and learn how machines can analyze and learn from text data. Here is the [text classification repository](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/text_classification_case_study)! Enjoy learning.
 
@@ -31,9 +31,9 @@ To get started there are two options:
 The most straightforward way to run hands-on exercises is to execute them in the cloud. For each of the three hands-on parts, open the jupyter notebook in Google Colab to run the code interactively:
 
 ![badge](https://img.shields.io/badge/Text_Classification-07911e)
-[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmirKhalilzadeh/tmp/blob/main/text_classification_case_study/Text_classification_interactive.ipynb)   ![badge](https://img.shields.io/badge/Timeseries_Regression-07911e)
-[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmirKhalilzadeh/tmp/blob/main/timeseries_regression_case_study/timeseries_regression_interactive.ipynb)   ![badge](https://img.shields.io/badge/Anomaly_Detection-07911e)
-[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmirKhalilzadeh/tmp/blob/main/anomaly_detection_case_study/anomalies_detection_interactive.ipynb) 
+[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/text_classification_case_study/Text_classification_interactive.ipynb)   ![badge](https://img.shields.io/badge/Timeseries_Regression-07911e)
+[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/timeseries_regression_case_study/timeseries_regression_interactive.ipynb)   ![badge](https://img.shields.io/badge/Anomaly_Detection-07911e)
+[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/anomaly_detection_case_study/anomalies_detection_interactive.ipynb) 
 
 Don't worry if you dont have a Google account! You can still run the code and you will find out how at the beginning of each hands-on session.
 
@@ -43,7 +43,7 @@ Should you prefer to run the hands-on locally on your machine, there are three s
 
 1. **Clone or download the content**: Clone this repository from Github to your local machine using the following `git` command in your terminal. Or if you prefer to download the content manually, you can click on the ![](https://placehold.co/60x25/green/white?text=<>+Code) button on the top right of this page and then click on the Download ZIP.
 ```
-git clone https://github.com/AmirKhalilzadeh/tmp.git
+git clone https://github.com/epfl-exts/amld24-applications-ML-workshop.git
 ```
 2. **Install Miniconda**: Once the content of the repository is on your machine and is extracted, you can install the relevant Python dependencies with `conda`. But before that you need to install `Miniconda` on your system, if you don't have `conda` installed already. Install Miniconda on your system using this [link](https://docs.conda.io/en/latest/miniconda.html).
 
