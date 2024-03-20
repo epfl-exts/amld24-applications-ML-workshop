@@ -612,10 +612,10 @@ def show_bag_of_words_vector():
     corpus_bow = vectorizer.fit_transform(corpus)
 
     # Get the vocabulary
-    vocab = vectorizer.get_feature_names()
+    vocab = vectorizer.get_feature_names_out()
 
     corpus_df = pd.DataFrame(
-        corpus_bow.toarray(), columns=vectorizer.get_feature_names()
+        corpus_bow.toarray(), columns=vectorizer.get_feature_names_out()
     )
     corpus_df["Text"] = corpus
     corpus_df.set_index("Text", inplace=True)
@@ -766,7 +766,7 @@ def plot_confusion_matrix(df_test, model):
 
 def visualize_coefficients(model, n_top_features=25):
 
-    feature_names = model.named_steps["vectorizer"].get_feature_names()
+    feature_names = model.named_steps["vectorizer"].get_feature_names_out()
     coefficients = model.named_steps["lr"].coef_
 
     """Visualize coefficients of a linear model.
@@ -876,7 +876,7 @@ def error_analysis(df_test, model, doc_nbr, n_top=25):
     class_dict = dict(zip(["0", "1"], ["Non-spam", "Spam"]))
 
     # Get vocabulary and model coefficients
-    feature_names = model.named_steps["vectorizer"].get_feature_names()
+    feature_names = model.named_steps["vectorizer"].get_feature_names_out()
     coefficients = model.named_steps["lr"].coef_
     coefficients = coefficients.squeeze()
 
