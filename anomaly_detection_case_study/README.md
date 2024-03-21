@@ -21,7 +21,7 @@ The user can select the size of training dataset and vary its contamination rate
 To get started with the hands-on session you have the following options. You can choose the first three by clicking on the badges below:
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld24-applications-ML-workshop/blob/main/anomaly_detection_case_study/anomalies_detection_interactive.ipynb) 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-exts/amld24-applications-ML-workshop/cd3bca46a37832571ff089ebb23d5f34b894cdf2?urlpath=lab%2Ftree%2Fanomaly_detection_case_study%2Fanomalies_detection_interactive.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-exts/amld24-applications-ML-workshop/c03e8f694cde6e00615d8c340f2ee93fa512f816?urlpath=lab%2Ftree%2Fanomaly_detection_case_study%2Fanomalies_detection_interactive.ipynb)
 [![Offline](https://img.shields.io/badge/Offline_View-Open-Blue.svg)](https://github.com/epfl-exts/amld24-applications-ML-workshop/blob/main/static/anomalies_detection_completed.ipynb)
 
 - Open the jupyter notebook in **Google Colab** to run the codes interactively on the cloud (recommended for this workshop). Note that you need to have a Google account to run the code in Google Colab.
