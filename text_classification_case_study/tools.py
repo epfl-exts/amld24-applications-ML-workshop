@@ -34,6 +34,13 @@ from sklearn.metrics import confusion_matrix
 
 
 ####################################
+### font size.                 ####
+####################################
+
+label_specs   = {"fontsize": 9}
+title_specs   = {"fontsize": 12, "fontweight": "bold"}
+
+####################################
 ### Function: load_data         ####
 ####################################
 
@@ -330,8 +337,8 @@ def get_features(df):
             edgecolor="grey",
         )
         ax.legend(fontsize=12)
-        ax.set_ylabel("Normalized Frequency")
-        ax.set_xlabel("Number of " + col.lower()[:-7] + "s (log scale)")
+        ax.set_ylabel("Normalized Frequency", fontsize=14)
+        ax.set_xlabel("Number of " + col.lower()[:-7] + "s (log scale)", fontsize=14)
 
     axes[4, 1].axis("off")
     axes[4, 2].axis("off")
@@ -544,18 +551,21 @@ def plot_most_common_words(df, N):
 
     # Plot most common words in hams and spams
     # -----------------------------------------
-    plt.figure(figsize=(18, 6))
+    plt.figure(figsize=(8, 8))
 
-    plt.bar(
-        x=df.Word, height=df.ham_counts, edgecolor="black", label="Non-spam", alpha=0.3
+    plt.barh(
+        y=df.Word, width=df.ham_counts, edgecolor="black", label="Non-spam", alpha=0.3
     )
-    plt.bar(
-        x=df.Word, height=df.spam_counts, edgecolor="black", label="Spam", alpha=0.3
+    plt.barh(
+        y=df.Word, width=df.spam_counts, edgecolor="black", label="Spam", alpha=0.3
     )
-    plt.ylabel("Word counts")
-    plt.title("Top " + str(N) + " most frequent words in spam and non-spam")
-    plt.legend()
-    plt.xticks(rotation=90)
+    plt.xlabel("Word counts", **label_specs)
+    plt.title("Top " + str(N) + " most frequent words in spam and non-spam", **title_specs)
+    # change font size
+    plt.legend(**label_specs)
+    plt.xticks(**label_specs)
+    plt.yticks(**label_specs)
+ 
 
 
 ###########################################
@@ -813,27 +823,29 @@ def visualize_coefficients(model, n_top_features=25):
 
     # Plot top features
     # -----------------
-    plt.figure(figsize=(18, 6))
-    plt.bar(
-        x=df_coeffs.Feature,
-        height=df_coeffs.Spam,
+
+    plt.figure(figsize=(8, 10))
+    plt.barh(
+        y=df_coeffs.Feature,
+        width=df_coeffs.Spam,
         edgecolor="black",
         label="Non-spam",
         alpha=0.3,
     )
-    plt.bar(
-        x=df_coeffs.Feature,
-        height=df_coeffs.Non_spam,
+    plt.barh(
+        y=df_coeffs.Feature,
+        width=df_coeffs.Non_spam,
         edgecolor="black",
         label="Spam",
         alpha=0.3,
     )
-    plt.ylabel("Coefficient magnitude")
+    plt.xlabel("Coefficient magnitude", **label_specs)
     plt.title(
-        "Top " + str(n_top_features) + " most important features in spam and non-spam"
-    )
-    plt.legend()
-    plt.xticks(rotation=90, fontsize=12)
+        "Top " + str(n_top_features) + " most important features in spam and non-spam",
+    **title_specs)
+    plt.legend(**label_specs)
+    plt.xticks(**label_specs)
+    plt.yticks(**label_specs)
 
 
 ###########################################
