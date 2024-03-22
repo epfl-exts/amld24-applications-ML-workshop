@@ -18,7 +18,7 @@ The workshop is divided into four parts. An introduction followed by three hands
 
 3. **Timeseries Regression**: In this third part you will learn about timeseries regression as an another supervised learning problem. You will understand the significance of time dimension in data and how machine learning can be applied to timeseries forecasting. Jump into the [timeseries regression repository](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/timeseries_regression_case_study) and start learning.
 
-4. **Anomaly Detection**: Here you will explore the intriguing field of anomaly detection, where machine learning is used to identify unusual patterns or outliers in data. Explore the [anomaly detection repository](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/anomaly_detection_case_study) and enjoy learning about anomaly detection as a supervised classification problem.
+4. **Anomaly Detection**: Here you will explore the intriguing field of anomaly detection, where machine learning is used to identify unusual patterns or outliers in data. Explore the [anomaly detection repository](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/anomaly_detection_case_study) and enjoy learning about anomaly detection as an unsupervised learning problem.
 
 
 
