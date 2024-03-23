@@ -1,8 +1,10 @@
 
 <img src="static/logo_red.png" width="150px" align="right">
 
-# Applications of Machine Learning workshop
 
+:bell: You can now download the presentation slides in PDF format from [here](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/static/AMLD2024.pdf).
+
+# Applications of Machine Learning workshop
 
 Welcome to the Applications of Machine Learning workshop! This repository contains all resources for the workshop presented at the [Applied Machine Learning Days 2024](https://2024.appliedmldays.org/). Whether you're a student, professional, or simply curious about the field, this workshop will provide you with a solid foundation in key machine learning concepts and practical applications.
 
@@ -12,7 +14,7 @@ Welcome to the Applications of Machine Learning workshop! This repository contai
 
 The workshop is divided into four parts. An introduction followed by three hands-on sessions:
 
-1. **Introduction**: This section provides a comprehensive introduction to machine learning, explaining fundamental concepts and laying the groundwork for the hands-on sessions. You will be able to find presentation slides in PDF format here at the end of the workshop.
+1. **Introduction**: This section provides a comprehensive introduction to machine learning, explaining fundamental concepts and laying the groundwork for the hands-on sessions. You will be able to find presentation slides in PDF format [here](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/static/AMLD2024.pdf) at the end of the workshop.
 
 2. **Text Classification**: In this part you will learn about text classification as a supervised learning problem. You will dive into the realm of natural language processing and learn how machines can analyze and learn from text data. Here is the [text classification repository](https://github.com/epfl-exts/amld24-applications-ML-workshop/tree/main/text_classification_case_study)! Enjoy learning.
 
